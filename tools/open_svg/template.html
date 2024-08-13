@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>icons</title>
+  </head>
+  <script>
+    // replace there
+ </script>
+  <script>
+    const items = sources.map((v) => {
+      return `<div
+                  class="item"
+                  data-name="${v.split('/')?.[v.split('/').length -1]}"
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+                    align-items: center;
+                    padding: 8px;
+                    border-radius: 4px;
+                    background: #eee;
+                    cursor: pointer;
+                  "
+              >
+                <img style="width: 32px; text-align: center" src="./${v}" />
+                <p style="padding: 0; margin: 0; white-space: nowrap">${v.split('/')?.[v.split('/').length -1]}</p>
+             </div>`;
+    });
+    // render
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('container').innerHTML = items.join('');
+      document.getElementById('container').onclick = (e) => {
+        if(e.target.classList.contains("item")){
+         const name = e.target.dataset.name;
+         navigator.clipboard.writeText(name);
+        }
+      };
+    });
+  </script>
+  <body>
+    <div
+      id="container"
+      style="
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-row-gap: 10px;
+        font-family: sans-serif;
+        grid-column-gap: 10px;
+      "
+    ></div>
+  </body>
+</html>

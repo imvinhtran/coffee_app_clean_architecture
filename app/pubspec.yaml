@@ -1,0 +1,34 @@
+name: coffee_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  auto_route: ^8.1.4
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  get_it: ^7.6.8
+  app_initializer:
+    path: ../app_initializer
+  domain:
+    path: ../domain
+      
+  shared:
+    path: ../shared
+  slang: ^3.31.1
+  slang_flutter: ^3.31.0
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
