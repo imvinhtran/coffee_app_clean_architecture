@@ -41,3 +41,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+app/lib/resource/i18n/translations.g.dart
+data/.dart_tool/build/entrypoint/build.dart.dill
+data/.dart_tool/build/fcd1995bc647fb959e82ea360c6c2c9a/asset_graph.json
+domain/.dart_tool/build/entrypoint/build.dart.dill
+domain/.dart_tool/build/fcd1995bc647fb959e82ea360c6c2c9a/asset_graph.json
