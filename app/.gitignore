@@ -50,12 +50,12 @@ app.*.map.json
 
 # generated file
 *.g.dart
-# *.graphql.dart
-# *.gr.dart
-# *.freezed.dart
-# *.config.dart
-# *.mapper.dart
-# *.gen.dart
-# *.mocks.dart
+*.graphql.dart
+*.gr.dart
+*.freezed.dart
+*.config.dart
+*.mapper.dart
+*.gen.dart
+*.mocks.dart
 
 devtools_options.yaml
