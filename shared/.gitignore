@@ -36,13 +36,13 @@ migrate_working_dir/
 lib/generated_plugin_registrant.dart
 
 # generated file
-*.g.dart
-*.graphql.dart
-*.gr.dart
-*.freezed.dart
-*.config.dart
-*.mapper.dart
-*.gen.dart
-*.mocks.dart
+# *.g.dart
+# *.graphql.dart
+# *.gr.dart
+# *.freezed.dart
+# *.config.dart
+# *.mapper.dart
+# *.gen.dart
+# *.mocks.dart
 
 *.env
