@@ -69,9 +69,9 @@
     },
     {
       "name": "build_daemon",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/build_daemon-4.0.1",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/build_daemon-4.0.2",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.4"
     },
     {
       "name": "build_resolvers",
@@ -81,15 +81,15 @@
     },
     {
       "name": "build_runner",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/build_runner-2.4.9",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/build_runner-2.4.11",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.4"
     },
     {
       "name": "build_runner_core",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/build_runner_core-7.3.0",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/build_runner_core-7.3.1",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.4"
     },
     {
       "name": "built_collection",
@@ -141,9 +141,9 @@
     },
     {
       "name": "crypto",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/crypto-3.0.3",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/crypto-3.0.4",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.4"
     },
     {
       "name": "dart_style",
@@ -233,7 +233,7 @@
       "name": "flutter",
       "rootUri": "file:///opt/homebrew/Caskroom/flutter/3.19.6/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.3"
     },
     {
       "name": "flutter_contacts",
@@ -257,7 +257,7 @@
       "name": "flutter_test",
       "rootUri": "file:///opt/homebrew/Caskroom/flutter/3.19.6/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.3"
     },
     {
       "name": "flutter_udid",
@@ -303,9 +303,9 @@
     },
     {
       "name": "graphs",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/graphs-2.3.1",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/graphs-2.3.2",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.4"
     },
     {
       "name": "http",
@@ -327,13 +327,13 @@
     },
     {
       "name": "injectable",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/injectable-2.4.1",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/injectable-2.4.4",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "injectable_generator",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/injectable_generator-2.6.1",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/injectable_generator-2.6.2",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -369,21 +369,21 @@
     },
     {
       "name": "leak_tracker",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/leak_tracker-10.0.0",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/leak_tracker-10.0.4",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.2"
     },
     {
       "name": "leak_tracker_flutter_testing",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-2.0.1",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.3",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.2"
     },
     {
       "name": "leak_tracker_testing",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/leak_tracker_testing-2.0.1",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.2"
     },
     {
       "name": "lints",
@@ -411,7 +411,7 @@
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/meta-1.11.0",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/meta-1.12.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -453,9 +453,9 @@
     },
     {
       "name": "path_provider_android",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/path_provider_android-2.2.4",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/path_provider_android-2.2.10",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.4"
     },
     {
       "name": "path_provider_foundation",
@@ -543,9 +543,9 @@
     },
     {
       "name": "shelf_web_socket",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/shelf_web_socket-1.0.4",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/shelf_web_socket-2.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.0"
     },
     {
       "name": "sky_engine",
@@ -603,7 +603,7 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/test_api-0.6.1",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/test_api-0.7.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -633,9 +633,9 @@
     },
     {
       "name": "vm_service",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/vm_service-13.0.0",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/vm_service-14.2.1",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.3"
     },
     {
       "name": "watcher",
@@ -645,27 +645,33 @@
     },
     {
       "name": "web",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/web-0.5.1",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/web-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "web_socket",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/web_socket-0.1.6",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
       "name": "web_socket_channel",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/web_socket_channel-2.4.5",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/web_socket_channel-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
       "name": "win32",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/win32-5.5.0",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/win32-5.5.4",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "3.4"
     },
     {
       "name": "win32_registry",
-      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/win32_registry-1.1.3",
+      "rootUri": "file:///Users/imvinhtran/.pub-cache/hosted/pub.dev/win32_registry-1.1.4",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "3.4"
     },
     {
       "name": "xdg_directories",
@@ -686,7 +692,10 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-08-13T03:04:51.099165Z",
+  "generated": "2024-08-14T03:50:19.264043Z",
   "generator": "pub",
-  "generatorVersion": "3.3.4"
+  "generatorVersion": "3.4.4",
+  "flutterRoot": "file:///opt/homebrew/Caskroom/flutter/3.19.6/flutter",
+  "flutterVersion": "3.22.3",
+  "pubCache": "file:///Users/imvinhtran/.pub-cache"
 }

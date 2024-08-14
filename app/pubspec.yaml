@@ -1,5 +1,5 @@
 name: coffee_app
-description: "A new Flutter project."
+description: 'A new Flutter project.'
 publish_to: 'none'
 version: 0.1.0
 
@@ -7,7 +7,8 @@ environment:
   sdk: '>=3.3.4 <4.0.0'
 
 dependencies:
-  auto_route: ^8.1.4
+
+
   equatable: ^2.0.5
   flutter:
     sdk: flutter
@@ -17,18 +18,79 @@ dependencies:
     path: ../app_initializer
   domain:
     path: ../domain
-      
+
   shared:
     path: ../shared
   slang: ^3.31.1
   slang_flutter: ^3.31.0
- 
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.0.10+1
+  injectable: ^2.4.2
+  auto_route_generator: ^9.0.0
+  auto_route: ^9.2.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
   build_runner: ^2.4.9
+  flutter_gen_runner:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/
+
+    - assets/fonts/
+
+    - assets/svg/
+
+    - assets/i18n/
+
+  fonts:
+    - family: SFPro
+      fonts:
+        - asset: assets/fonts/sfpro/SF-Pro-Display-Regular.otf
+          weight: 400
+        - asset: assets/fonts/sfpro/SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset: assets/fonts/sfpro/SF-Pro-Display-Semibold.otf
+          weight: 700
+
+
+# Gen
+flutter_gen:
+  output: lib/resource/ # Optional (default: lib/gen/)
+  line_length: 80 # Optional (default: 80)
+
+  # Optional
+  integrations:
+    flutter_svg: true
+    flare_flutter: true
+    rive: true
+
+  assets:
+    # Optional
+    enabled: true
+    # Optional
+    # Set to true if you want this package to be a package dependency
+    # See: https://flutter.dev/docs/development/ui/assets-and-images#from-packages
+    outputs:
+      style: camel-case
+      package_parameter_enabled: false
+    # Optional
+    # Avaliable values:
+    # - camel-case
+    # - snake-case
+    # - dot-delimiter
+    # style: camel-case
+  fonts:
+    # Optional
+    enabled: true
+
+  colors:
+    # Optional
+    enabled: false
+    inputs:
+      - assets/color/colors.xml
+# ========= END =========
