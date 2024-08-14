@@ -11,8 +11,11 @@ class AppRouter extends RootStackRouter {
         // HomeScreen is generated as HomeRoute because
         // of the replaceInRouteName property
         AutoRoute(
-          page: HomeRoute.page,
+          page: WelcomeRoute.page,
           initial: true,
+        ),
+        AutoRoute(
+          page: HomeRoute.page,
         ),
         AutoRoute(
           page: CoffeeListRoute.page,

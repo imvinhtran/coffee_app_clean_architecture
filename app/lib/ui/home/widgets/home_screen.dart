@@ -1,4 +1,6 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:coffee_app/common_widget/base/app_app_bar.dart';
+import 'package:coffee_app/common_widget/base/app_scaffold.dart';
 import 'package:coffee_app/navigation/routes/app_router.gr.dart';
 import 'package:coffee_app/resource/resource.dart';
 
@@ -15,24 +17,25 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-          color: AppColors.primaryColor,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Text('HELO'),
-              ElevatedButton(
-                onPressed: () {
-                  context.router.push(
-                    const CoffeeListRoute(),
-                  );
-                },
-                child: Text('cick me'),
-              ),
-            ],
-          )),
+    return AppScaffold(
+      backgroundAppGradient: AppColors.gradientBlackBg,
+      appbar: const AppAppBar(),
+      backgroundAppColor: AppColors.primaryColor,
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisSize: MainAxisSize.max,
+        children: [
+          Text('HELO'),
+          ElevatedButton(
+            onPressed: () {
+              context.router.push(
+                const CoffeeListRoute(),
+              );
+            },
+            child: Text('cick me'),
+          ),
+        ],
+      ),
     );
   }
 }
