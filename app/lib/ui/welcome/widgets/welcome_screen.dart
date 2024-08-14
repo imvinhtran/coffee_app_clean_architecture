@@ -34,6 +34,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 color: AppColors.white,
               ),
               16.height,
+              //
               AppText.body1Default(
                 t.welcomeScreen.welcomeSubtitle,
                 textAlign: TextAlign.center,
